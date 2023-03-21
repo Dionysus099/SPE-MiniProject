@@ -41,7 +41,7 @@ pipeline{
                                 sh 'docker tag calculator Dionysus099/SPE-MiniProject:latest'
                                 sh 'docker push Dionysus099/SPE-MiniProject:latest'
                             }
-                            sh 'docker pull bansalc73/calc_dev_ops123:latest'
+                            sh 'docker pull Dionysus099/SPE-MiniProject:latest''
 
                         }
                     }
