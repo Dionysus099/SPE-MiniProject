@@ -1,11 +1,13 @@
-pipeline {
-  agent any
-  stages {
-    stage('Checkout') {
-      steps {
-        checkout scm
-      }
+pipeline{
+    agent any
+
+     tools{
+        maven 'MAVEN'
     }
 
- }
-}
+    environment{
+        PATH = "/usr/local/Cellar/maven/3.9.0/libexec:${PATH}"
+        DOCKER_IMAGE = ' Dionysus099/SPE-MiniProject:latest'
+        CONTAINER_NAME = 'sci-calc_container'
+        PORTS = '8080:80'
+    }
