@@ -11,3 +11,16 @@ pipeline{
         CONTAINER_NAME = 'sci-calc_container'
         PORTS = '8080:80'
     }
+
+    stages{
+            stage('Clone Git'){
+                steps{
+                    git 'https://github.com/Dionysus099/SPE-MiniProject.git'
+                }
+            }
+
+            stage('Build'){
+                steps {
+                    sh "mvn clean package"
+                }
+            }
