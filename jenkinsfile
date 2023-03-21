@@ -7,7 +7,7 @@ pipeline{
 
     environment{
         PATH = "/usr/local/Cellar/maven/3.9.0/libexec:${PATH}"
-        DOCKER_IMAGE = ' Dionysus099/SPE-MiniProject:latest'
+        DOCKER_IMAGE = 'Dionysus099/SPE-MiniProject:latest'
         CONTAINER_NAME = 'sci-calc_container'
         PORTS = '8080:80'
     }
@@ -22,5 +22,37 @@ pipeline{
             stage('Build'){
                 steps {
                     sh "mvn clean package"
+                }
+            }
+
+            stage('Test'){
+                        steps{
+                             dir('/home/sahil/IdeaProjects/Sci-Calculator/src/test') {
+                                sh "mvn test"
+                            }
+
+                        }
+                    }
+            stage('Containerize (Push to Dockerhub and pull from Dockerhub)') {
+                        steps {
+                            sh "docker build -t SPE-MiniProject."
+                            withCredentials([usernamePassword(credentialsId: 'docker_HUb', usernameVariable: 'DOCKER_USERNAME', passwordVariable: 'DOCKER_PASSWORD')]) {
+                                sh 'docker login -u $DOCKER_USERNAME -p $DOCKER_PASSWORD'
+                                sh 'docker tag calculator Dionysus099/SPE-MiniProject:latest'
+                                sh 'docker push Dionysus099/SPE-MiniProject:latest'
+                            }
+                            sh 'docker pull bansalc73/calc_dev_ops123:latest'
+
+                        }
+                    }
+
+                    stage('Ansible Deployment') {
+                        steps {
+                            script {
+                                sh 'ansible-playbook -i inventory deploy.yml'
+                            }
+                        }
+                    }
+
                 }
             }
