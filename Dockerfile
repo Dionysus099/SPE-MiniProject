@@ -1,5 +1,5 @@
 FROM openjdk:11
-COPY /home/sahil/IdeaProjects/Sci-Calculator/target/Sci-Calculator-1.0-SNAPSHOT.jar./
+COPY ./home/sahil/IdeaProjects/Sci-Calculator/target/Sci-Calculator-1.0-SNAPSHOT.jar ./
 WORKDIR ./
 CMD ["java", "-Dlog4j.configurationFile=./resources/log42j.xml", "-jar", "Sci-Calculator-1.0-SNAPSHOT.jar"]
 
