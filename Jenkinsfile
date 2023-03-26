@@ -16,7 +16,7 @@ pipeline {
 
     stage('Docker Image creation') {
       steps {
-        sh 'sudo docker build -t dionysus099/speminiproject .'
+        sh 'docker build -t dionysus099/speminiproject .'
       }
     }
 
