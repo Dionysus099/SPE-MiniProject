@@ -16,7 +16,7 @@ pipeline {
 
     stage('Docker Image creation') {
       steps {
-        sh 'docker build -t dionysus099/speminiproject .'
+        sh 'sudo docker build -t dionysus099/speminiproject /home/sahil/IdeaProjects/Sci-Calculator .'
       }
     }
 
