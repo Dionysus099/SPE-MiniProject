@@ -1,0 +1,8 @@
+- name: Pull docker image of Calculator
+  hosts: all
+  tasks:
+    - name: pull docker image
+      shell: docker pull dionysus099/speminiproject
+
+    - name: running container
+      shell: docker run -it -d -p 5000:5000 dionysus099/speminiproject
