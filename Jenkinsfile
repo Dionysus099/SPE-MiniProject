@@ -31,11 +31,7 @@ pipeline {
 
     stage('Ansible Deploy') {
       steps {
-        withCredentials([sshUserPrivateKey(credentialsId: '4b4f0fef-f7f6-4cf9-a818-7026d2100806', keyFileVariable: 'SSH_KEY', passphraseVariable: '', usernameVariable: 'SSH_USER')]) {
-          sshagent(['4b4f0fef-f7f6-4cf9-a818-7026d2100806']) {
-            sh 'ansible-playbook -i inventory playbook.yml'
-          }
-        }
+        sh 'ansible-playbook -i inventory deploy.yml'
       }
     }
   }
