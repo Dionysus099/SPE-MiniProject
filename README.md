@@ -1,2 +1,2 @@
 # SPE-MiniProject
-cli based Scientific Calculator
+cli based Sci-Calculator
