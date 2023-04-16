@@ -182,3 +182,95 @@
 2023-04-16 19:29:58.895 [main] INFO  org.example.Main - [RESULT - SUBTRACTION] - 1.662
 2023-04-16 19:29:58.895 [main] INFO  org.example.Main - [SUBTRACTION] - 3.45672 FROM 9.0
 2023-04-16 19:29:58.895 [main] INFO  org.example.Main - [RESULT - SUBTRACTION] - 5.54328
+2023-04-16 19:34:56.558 [main] INFO  org.example.Main - [FACTORIAL] - 5.0
+2023-04-16 19:34:56.559 [main] INFO  org.example.Main - [RESULT - FACTORIAL] - 120.0
+2023-04-16 19:34:56.560 [main] INFO  org.example.Main - [FACTORIAL] - 6.0
+2023-04-16 19:34:56.560 [main] INFO  org.example.Main - [RESULT - FACTORIAL] - 720.0
+2023-04-16 19:34:56.560 [main] INFO  org.example.Main - [FACTORIAL] - 4.0
+2023-04-16 19:34:56.560 [main] INFO  org.example.Main - [RESULT - FACTORIAL] - 24.0
+2023-04-16 19:34:56.560 [main] INFO  org.example.Main - [FACTORIAL] - 2.0
+2023-04-16 19:34:56.560 [main] INFO  org.example.Main - [RESULT - FACTORIAL] - 2.0
+2023-04-16 19:34:56.560 [main] INFO  org.example.Main - [FACTORIAL] - 0.0
+2023-04-16 19:34:56.561 [main] INFO  org.example.Main - [RESULT - FACTORIAL] - 1.0
+2023-04-16 19:34:56.562 [main] INFO  org.example.Main - [SQUARE ROOT] - 16.0
+2023-04-16 19:34:56.562 [main] INFO  org.example.Main - [RESULT - SQUARE ROOT] - 4.0
+2023-04-16 19:34:56.562 [main] INFO  org.example.Main - [SQUARE ROOT] - 1.0
+2023-04-16 19:34:56.562 [main] INFO  org.example.Main - [RESULT - SQUARE ROOT] - 1.0
+2023-04-16 19:34:56.563 [main] INFO  org.example.Main - [SQUARE ROOT] - 81.0
+2023-04-16 19:34:56.563 [main] INFO  org.example.Main - [RESULT - SQUARE ROOT] - 9.0
+2023-04-16 19:34:56.563 [main] INFO  org.example.Main - [SQUARE ROOT] - 36.0
+2023-04-16 19:34:56.563 [main] INFO  org.example.Main - [RESULT - SQUARE ROOT] - 6.0
+2023-04-16 19:34:56.569 [main] INFO  org.example.Main - [ADDITION] - 4.56 TO 2.34
+2023-04-16 19:34:56.570 [main] INFO  org.example.Main - [RESULT - ADDITION] - 6.8999999999999995
+2023-04-16 19:34:56.570 [main] INFO  org.example.Main - [ADDITION] - 3.45672 TO 9.0
+2023-04-16 19:34:56.570 [main] INFO  org.example.Main - [RESULT - ADDITION] - 12.45672
+2023-04-16 19:34:56.571 [main] INFO  org.example.Main - [ADDITION] - 4.0 TO 2.3221
+2023-04-16 19:34:56.571 [main] INFO  org.example.Main - [RESULT - ADDITION] - 6.3221
+2023-04-16 19:34:56.571 [main] INFO  org.example.Main - [ADDITION] - 3.0 TO 9.0
+2023-04-16 19:34:56.571 [main] INFO  org.example.Main - [RESULT - ADDITION] - 12.0
+2023-04-16 19:34:56.571 [main] INFO  org.example.Main - [SQUARE ROOT] - 3.0
+2023-04-16 19:34:56.572 [main] INFO  org.example.Main - [RESULT - SQUARE ROOT] - 1.7320508075688772
+2023-04-16 19:34:56.572 [main] INFO  org.example.Main - [SQUARE ROOT] - 4.0
+2023-04-16 19:34:56.572 [main] INFO  org.example.Main - [RESULT - SQUARE ROOT] - 2.0
+2023-04-16 19:34:56.572 [main] INFO  org.example.Main - [SQUARE ROOT] - 81.0
+2023-04-16 19:34:56.572 [main] INFO  org.example.Main - [RESULT - SQUARE ROOT] - 9.0
+2023-04-16 19:34:56.572 [main] INFO  org.example.Main - [SQUARE ROOT] - 36.0
+2023-04-16 19:34:56.573 [main] INFO  org.example.Main - [RESULT - SQUARE ROOT] - 6.0
+2023-04-16 19:34:56.573 [main] INFO  org.example.Main - [SUBTRACTION] - 4.0 FROM 78.3221
+2023-04-16 19:34:56.574 [main] INFO  org.example.Main - [RESULT - SUBTRACTION] - 74.3221
+2023-04-16 19:34:56.574 [main] INFO  org.example.Main - [SUBTRACTION] - 1.0 FROM 9.0
+2023-04-16 19:34:56.574 [main] INFO  org.example.Main - [RESULT - SUBTRACTION] - 8.0
+2023-04-16 19:34:56.575 [main] INFO  org.example.Main - [NATURAL LOG] - 1.0
+2023-04-16 19:34:56.575 [main] INFO  org.example.Main - [RESULT - NATURAL LOG] - 0.0
+2023-04-16 19:34:56.576 [main] INFO  org.example.Main - [FACTORIAL] - 6.0
+2023-04-16 19:34:56.576 [main] INFO  org.example.Main - [RESULT - FACTORIAL] - 720.0
+2023-04-16 19:34:56.576 [main] INFO  org.example.Main - [FACTORIAL] - 1.0
+2023-04-16 19:34:56.576 [main] INFO  org.example.Main - [RESULT - FACTORIAL] - 1.0
+2023-04-16 19:34:56.577 [main] INFO  org.example.Main - [FACTORIAL] - 3.0
+2023-04-16 19:34:56.577 [main] INFO  org.example.Main - [RESULT - FACTORIAL] - 6.0
+2023-04-16 19:34:56.577 [main] INFO  org.example.Main - [FACTORIAL] - 4.0
+2023-04-16 19:34:56.577 [main] INFO  org.example.Main - [RESULT - FACTORIAL] - 24.0
+2023-04-16 19:34:56.577 [main] INFO  org.example.Main - [FACTORIAL] - 0.0
+2023-04-16 19:34:56.577 [main] INFO  org.example.Main - [RESULT - FACTORIAL] - 1.0
+2023-04-16 19:34:56.578 [main] INFO  org.example.Main - [MULTIPLICATION] - 0.678 TO 2.34
+2023-04-16 19:34:56.579 [main] INFO  org.example.Main - [RESULT - MULTIPLICATION] - 1.58652
+2023-04-16 19:34:56.579 [main] INFO  org.example.Main - [MULTIPLICATION] - 0.0 TO 9.87
+2023-04-16 19:34:56.579 [main] INFO  org.example.Main - [RESULT - MULTIPLICATION] - 0.0
+2023-04-16 19:34:56.580 [main] INFO  org.example.Main - [POWER - 2.0 RAISED TO] 3.0
+2023-04-16 19:34:56.580 [main] INFO  org.example.Main - [RESULT - POWER] - 8.0
+2023-04-16 19:34:56.580 [main] INFO  org.example.Main - [POWER - 3.0 RAISED TO] 3.0
+2023-04-16 19:34:56.580 [main] INFO  org.example.Main - [RESULT - POWER] - 27.0
+2023-04-16 19:34:56.580 [main] INFO  org.example.Main - [POWER - 4.0 RAISED TO] 3.0
+2023-04-16 19:34:56.581 [main] INFO  org.example.Main - [RESULT - POWER] - 64.0
+2023-04-16 19:34:56.581 [main] INFO  org.example.Main - [POWER - 5.0 RAISED TO] 3.0
+2023-04-16 19:34:56.581 [main] INFO  org.example.Main - [RESULT - POWER] - 125.0
+2023-04-16 19:34:56.581 [main] INFO  org.example.Main - [MULTIPLICATION] - 4.0 TO 78.3221
+2023-04-16 19:34:56.581 [main] INFO  org.example.Main - [RESULT - MULTIPLICATION] - 313.2884
+2023-04-16 19:34:56.582 [main] INFO  org.example.Main - [MULTIPLICATION] - 1.0 TO 9.0
+2023-04-16 19:34:56.582 [main] INFO  org.example.Main - [RESULT - MULTIPLICATION] - 9.0
+2023-04-16 19:34:56.582 [main] INFO  org.example.Main - [DIVISION] - 0.678 BY 2.34
+2023-04-16 19:34:56.583 [main] INFO  org.example.Main - [RESULT - DIVISION] - 3.451327433628318
+2023-04-16 19:34:56.583 [main] INFO  org.example.Main - [DIVISION] - 1.0 BY 9.87
+2023-04-16 19:34:56.583 [main] INFO  org.example.Main - [RESULT - DIVISION] - 9.87
+2023-04-16 19:34:56.583 [main] INFO  org.example.Main - [POWER - 2.0 RAISED TO] 3.0
+2023-04-16 19:34:56.584 [main] INFO  org.example.Main - [RESULT - POWER] - 8.0
+2023-04-16 19:34:56.584 [main] INFO  org.example.Main - [POWER - 1.0 RAISED TO] 3.0
+2023-04-16 19:34:56.584 [main] INFO  org.example.Main - [RESULT - POWER] - 1.0
+2023-04-16 19:34:56.584 [main] INFO  org.example.Main - [POWER - 3.0 RAISED TO] 4.0
+2023-04-16 19:34:56.584 [main] INFO  org.example.Main - [RESULT - POWER] - 81.0
+2023-04-16 19:34:56.584 [main] INFO  org.example.Main - [POWER - 4.0 RAISED TO] 3.0
+2023-04-16 19:34:56.584 [main] INFO  org.example.Main - [RESULT - POWER] - 64.0
+2023-04-16 19:34:56.585 [main] INFO  org.example.Main - [POWER - 5.0 RAISED TO] 2.0
+2023-04-16 19:34:56.585 [main] INFO  org.example.Main - [RESULT - POWER] - 25.0
+2023-04-16 19:34:56.585 [main] INFO  org.example.Main - [NATURAL LOG] - 2.4
+2023-04-16 19:34:56.585 [main] INFO  org.example.Main - [RESULT - NATURAL LOG] - 0.8754687373538999
+2023-04-16 19:34:56.585 [main] INFO  org.example.Main - [NATURAL LOG] - 2.1
+2023-04-16 19:34:56.586 [main] INFO  org.example.Main - [RESULT - NATURAL LOG] - 0.7419373447293773
+2023-04-16 19:34:56.586 [main] INFO  org.example.Main - [DIVISION] - 4.0 BY 78.3221
+2023-04-16 19:34:56.586 [main] INFO  org.example.Main - [RESULT - DIVISION] - 19.580525
+2023-04-16 19:34:56.586 [main] INFO  org.example.Main - [DIVISION] - 1.0 BY 9.0
+2023-04-16 19:34:56.586 [main] INFO  org.example.Main - [RESULT - DIVISION] - 9.0
+2023-04-16 19:34:56.587 [main] INFO  org.example.Main - [SUBTRACTION] - 0.678 FROM 2.34
+2023-04-16 19:34:56.587 [main] INFO  org.example.Main - [RESULT - SUBTRACTION] - 1.662
+2023-04-16 19:34:56.587 [main] INFO  org.example.Main - [SUBTRACTION] - 3.45672 FROM 9.0
+2023-04-16 19:34:56.588 [main] INFO  org.example.Main - [RESULT - SUBTRACTION] - 5.54328

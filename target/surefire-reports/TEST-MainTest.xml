@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="16" failures="0" name="MainTest" time="2.177" errors="0" skipped="0">
+<testsuite tests="16" failures="0" name="MainTest" time="2.279" errors="0" skipped="0">
   <properties>
     <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
     <property name="java.vm.version" value="11.0.18+10-post-Ubuntu-0ubuntu122.04"/>
@@ -43,7 +43,7 @@
     <property name="java.class.path" value="/usr/share/maven/boot/plexus-classworlds-2.x.jar"/>
     <property name="java.vm.specification.version" value="11"/>
     <property name="sun.arch.data.model" value="64"/>
-    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher clean install"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher clean package"/>
     <property name="java.home" value="/usr/lib/jvm/java-11-openjdk-amd64"/>
     <property name="user.language" value="en"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
@@ -60,20 +60,20 @@
     <property name="sun.desktop" value="gnome"/>
     <property name="sun.cpu.isalist" value=""/>
   </properties>
-  <testcase classname="MainTest" name="factorialFalsePositive" time="2.15"/>
+  <testcase classname="MainTest" name="factorialFalsePositive" time="2.253"/>
   <testcase classname="MainTest" name="squareRootTruePositive" time="0.001"/>
-  <testcase classname="MainTest" name="additionTruePositive" time="0.006"/>
-  <testcase classname="MainTest" name="additionFalsePositive" time="0.001"/>
-  <testcase classname="MainTest" name="squareRootFalsePositive" time="0.001"/>
-  <testcase classname="MainTest" name="subtractionFalsePositive" time="0.002"/>
+  <testcase classname="MainTest" name="additionTruePositive" time="0.008"/>
+  <testcase classname="MainTest" name="additionFalsePositive" time="0"/>
+  <testcase classname="MainTest" name="squareRootFalsePositive" time="0.002"/>
+  <testcase classname="MainTest" name="subtractionFalsePositive" time="0.001"/>
   <testcase classname="MainTest" name="logTruePositive" time="0.001"/>
-  <testcase classname="MainTest" name="factorialTruePositive" time="0.002"/>
-  <testcase classname="MainTest" name="multiplicationTruePositive" time="0.002"/>
+  <testcase classname="MainTest" name="factorialTruePositive" time="0.003"/>
+  <testcase classname="MainTest" name="multiplicationTruePositive" time="0.001"/>
   <testcase classname="MainTest" name="powerFalsePositive" time="0.002"/>
   <testcase classname="MainTest" name="multiplicationFalsePositive" time="0.001"/>
-  <testcase classname="MainTest" name="divisionTruePositive" time="0.002"/>
+  <testcase classname="MainTest" name="divisionTruePositive" time="0.001"/>
   <testcase classname="MainTest" name="powerTruePositive" time="0.002"/>
   <testcase classname="MainTest" name="logFalsePositive" time="0.001"/>
   <testcase classname="MainTest" name="divisionFalsePositive" time="0.001"/>
-  <testcase classname="MainTest" name="subtractionTruePositive" time="0.002"/>
+  <testcase classname="MainTest" name="subtractionTruePositive" time="0.001"/>
 </testsuite>
